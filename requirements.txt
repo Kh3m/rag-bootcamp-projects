@@ -3,8 +3,9 @@ langchain-community
 langchain-openai
 langchain-groq
 sentence-transformers
-python_dotenv
+python-dotenv
 faiss-cpu
 chromadb
 tiktoken
 pypdf
+pandas
