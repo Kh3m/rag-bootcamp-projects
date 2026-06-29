@@ -2,6 +2,7 @@ langchain
 langchain-community
 langchain-openai
 langchain-groq
+langchain-text-splitters
 sentence-transformers
 python-dotenv
 faiss-cpu
