@@ -1,0 +1,57 @@
+{
+  "company": "Khemshield",
+  "employees": [
+    {
+      "id": 1,
+      "name": "Abdulkareem Adamu",
+      "role": "Security and AI Engineer",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "SQL"
+      ],
+      "projects": [
+        {
+          "name": "RAG System",
+          "status": "In Progress"
+        },
+        {
+          "name": "Data Pipeline",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Auwal Tijani",
+      "role": "Data Scientist",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL"
+      ],
+      "projects": [
+        {
+          "name": "ML Model",
+          "status": "In Progress"
+        },
+        {
+          "name": "Analytics Dashboard",
+          "status": "Planning"
+        }
+      ]
+    }
+  ],
+  "departments": {
+    "engineering": {
+      "head": "Mike Johnson",
+      "budget": 1000000,
+      "team_size": 25
+    },
+    "data_science": {
+      "head": "Sarah Williams",
+      "budget": 750000,
+      "team_size": 15
+    }
+  }
+}

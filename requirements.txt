@@ -15,4 +15,4 @@ docx2txt
 unstructured
 docx
 openpyxl
-msoffcrypto
+jq
