@@ -8,5 +8,11 @@ python-dotenv
 faiss-cpu
 chromadb
 tiktoken
-pypdf
 pandas
+# helpers
+pypdf
+docx2txt
+unstructured
+docx
+openpyxl
+msoffcrypto
