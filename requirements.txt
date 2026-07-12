@@ -9,6 +9,7 @@ faiss-cpu
 chromadb
 tiktoken
 pandas
+matplotlib
 # helpers
 pypdf
 docx2txt
