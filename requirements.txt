@@ -10,6 +10,8 @@ chromadb
 tiktoken
 pandas
 matplotlib
+langchain-huggingface
+
 # helpers
 pypdf
 docx2txt
