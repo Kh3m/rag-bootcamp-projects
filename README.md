@@ -9,9 +9,11 @@ This work supports my broader research interest in applying LLM-based systems to
 ```
 rag-bootcamp-projects/
 │
-├── 0-Embedding-Semantic-Similarities/ # Embedding generation and similarity search experiments
+├── 0_Embedding-Semantic-Similarities/ # Embedding generation and a mini semantic search engine
 │
-├── 1-DataIngestParsing/              # Document loading, chunking, and parsing strategies
+├── 1_DataIngestParsing/               # Document loading and parsing (PDF, Word, CSV/Excel, JSON, databases)
+│
+├── 2_Vector_Embeddings_And_DBs/       # Vector embeddings (HuggingFace, OpenAI) and similarity search
 │
 ├── main.py                            # Entry point for running core demos
 ├── pyproject.toml                     # Project dependencies (uv)
@@ -52,7 +54,7 @@ pip install -r requirements.txt
 Each numbered project folder can be run independently. Navigate into the relevant folder and follow any project-specific instructions in its own notes.
 
 ```bash
-cd 1-DataIngestParsing
+cd 1_DataIngestParsing
 ```
 
 ## Tools and Frameworks
