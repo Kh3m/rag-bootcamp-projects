@@ -1,0 +1,9 @@
+
+    Natural Language Processing (NLP)
+
+    NLP is a field of AI that focuses on the interaction between computers and human language. 
+    Key tasks in NLP include text classification, named entity recognition, sentiment analysis, 
+    machine translation, and question answering. Modern NLP heavily relies on transformer 
+    architectures like BERT, GPT, and T5. These models use attention mechanisms to understand 
+    context and relationships between words in text.
+    
