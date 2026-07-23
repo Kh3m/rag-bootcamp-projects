@@ -15,6 +15,8 @@ rag-bootcamp-projects/
 │
 ├── 2_Vector_Embeddings_And_DBs/       # Vector embeddings (HuggingFace, OpenAI) and similarity search
 │
+├── 3_Vector_Store_and_DBs/            # Vector stores with ChromaDB (native client + LangChain) and a RAG pipeline
+│
 ├── main.py                            # Entry point for running core demos
 ├── pyproject.toml                     # Project dependencies (uv)
 ├── requirements.txt                   # Project dependencies (pip)
