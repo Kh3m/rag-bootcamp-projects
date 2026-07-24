@@ -15,7 +15,7 @@ rag-bootcamp-projects/
 │
 ├── 2_Vector_Embeddings_And_DBs/       # Vector embeddings (HuggingFace, OpenAI) and similarity search
 │
-├── 3_Vector_Store_and_DBs/            # Vector stores with ChromaDB (native client + LangChain) and a RAG pipeline
+├── 3_Vector_Store_and_DBs/            # ChromaDB vector stores (native + LangChain), a full RAG pipeline (Groq LLM), and LCEL
 │
 ├── main.py                            # Entry point for running core demos
 ├── pyproject.toml                     # Project dependencies (uv)
@@ -29,7 +29,8 @@ Each project folder is self-contained with its own code, dependencies, and notes
 
 - **Data Ingestion and Parsing** — loading and chunking documents for retrieval pipelines
 - **Embeddings and Semantic Similarity** — generating vector embeddings and measuring semantic similarity between text passages
-- **Traditional RAG** — standard retrieve-then-generate pipelines
+- **Vector Stores** — persisting and querying embeddings with ChromaDB (native client and LangChain integration)
+- **Traditional RAG** — standard retrieve-then-generate pipelines, built with both classic LangChain chains (`create_retrieval_chain`, `create_stuff_documents_chain`) and LCEL (LangChain Expression Language)
 - **Hybrid Search** — combining sparse (keyword-based) and dense (vector-based) retrieval methods
 - **Multimodal Retrieval** — retrieval across text and non-text data sources
 - **Agentic and Multi-Agent RAG** — pipelines where agents reason about what and when to retrieve
@@ -64,6 +65,9 @@ cd 1_DataIngestParsing
 - **LangChain** — core framework for building LLM-powered pipelines
 - **LangGraph** — for building agentic and multi-step RAG workflows
 - **LangSmith** — for tracing, debugging, and evaluating pipeline runs
+- **ChromaDB** — open-source vector database for storing and retrieving embeddings
+- **Groq** — fast LLM inference (Llama 3.3) for the generation step in RAG pipelines
+- **Hugging Face / OpenAI Embeddings** — for generating dense vector representations
 
 ## Goals
 
